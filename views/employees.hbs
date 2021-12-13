@@ -29,6 +29,7 @@
                         <td> <a href="/employees?status={{this.status}}"> {{this.status}} </a> </td>
                         <td> <a href="/employees?department={{this.department}}"> {{this.department}} </a> </td>
                         <td> {{this.hireDate}} </td>
+                        <td> <a class="btn btn-danger" href="/employees/delete/{{employeeNum}}"> Remove </a> </td>   
                     </tr>
                     {{/each}}
                 </tbody>
