@@ -9,7 +9,7 @@
  * Online (Heroku) Link: https://pure-brook-00060.herokuapp.com/
  *
  ********************************************************************************/
-//link  https://pure-brook-00060.herokuapp.com/
+// same link  https://pure-brook-00060.herokuapp.com/
 //update a6
 // require module
 
@@ -341,7 +341,7 @@ app.post("/login", (req, res) => {
 });
 
 app.get("/userHistory", ensureLogin, (req, res) => {
-  
+
   res.render("userHistory", { user: req.session.user });
 });
 
